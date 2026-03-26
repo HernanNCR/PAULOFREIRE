@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contáctanos</title>
+    <link rel="icon" href="img/paulo-freire4.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <style>
+      .contacto {
+        margin: 20px 0px;
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 60px; /* espacio entre cards */
+      }
+
+      .contacto .card {
+        width: 350px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <article class="content_imgs">
+        <img src="img/paulo freire4.png" width="140" style="cursor: pointer;" name="paulo_freire4" onclick="traslaterPrincipal()"/>
+
+        <p style="font-weight: 700; font-size: 30px; color: white">
+          CONT<font color="#EA4E1B">ÁCTANOS</font>
+        </p>
+      </article>
+      <nav>
+        <ul>
+          <a href="oferta_educativa.html"><li>OFERTA EDUCATIVA</li></a>
+          <a href="contactanos.html"><li>CONTÁCTANOS</li></a>
+          <a href="conocenos.html"><li>CONÓCENOS</li></a>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="contacto">
+      <div class="card text-bg-dark" onclick="traslaterfk()" style="cursor: pointer;">
+        <img
+          src="img/facebook-f-brands-solid-full.svg"
+          class="card-img"
+          alt="..."
+          
+        />
+        <div class="card-img-overlay">
+          <h5 class="card-title">FACEBOOK</h5>
+        </div>
+      </div>
+
+      <div class="card text-bg-dark" onclick="traslaterig()" style="cursor: pointer;">
+        <img
+          src="img/instagram-brands-solid-full.svg"
+          class="card-img"
+          alt="..."
+          
+        />
+        <div class="card-img-overlay">
+          <h5 class="card-title">INSTAGRAM</h5>
+        </div>
+      </div>
+
+      <div class="card text-bg-dark" onclick="traslaterMaps()" style="cursor: pointer;">
+        <img
+          src="img/location-dot-solid-full.svg"
+          class="card-img"
+          alt="..."
+          
+        />
+        <div class="card-img-overlay">
+          <h5 class="card-title">UBICACIÓN</h5>
+        </div>
+      </div>
+
+      <div class="card text-bg-dark" onclick="llamar()" style="cursor: pointer;">
+        <img
+          src="img/phone-solid-full.svg"
+          class="card-img"
+          alt="..."
+        />
+        <div class="card-img-overlay">
+          <h5 class="card-title">TELEFONO</h5>
+        </div>
+      </div>
+
+      <div class="card text-bg-dark">
+        <img
+          src="img/envelope-solid-full (2).svg"
+          class="card-img"
+          alt="..."
+          
+        />
+        <div class="card-img-overlay" onclick="enviarCorreo()" style="cursor: pointer;">
+          <h5 class="card-title">EMAIL</h5>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="css/style.js"></script>
+</html>
