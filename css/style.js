@@ -5,13 +5,13 @@ function traslaterWindow(data) {
   } else if (data === "CONTACTANOS") {
   }
 }
-
+ 
 function traslaterfk() {
-    window.location.href ="https://www.facebook.com/share/1CUpRVUXek/?mibextid=wwXIfr";
+    window.location.href ="https://www.facebook.com/share/1E7QLFMoWu/?mibextid=wwXIfr";
 }
 
 function traslaterig() {
-    window.location.href = "https://www.instagram.com/finstitutopaulo?igsh=ZjduNWdicWc3eGtl&utm_source=qr";
+    window.location.href = "https://www.instagram.com/finstitutopaulo?mdxt=MWUxb21oMDBudmc2bw==";
   
 }
 
@@ -24,9 +24,18 @@ function traslaterPrincipal(){
 }
 
 function llamar() {
-  window.location.href = "tel:+529625978870";
+  window.location.href = "tel:+529934688236";
 }
 
 function enviarCorreo() {
   window.location.href = "mailto:instituto.academia.freire@gmail.com";
+}
+
+function mandarWhatsApp(string) {
+  const numero = "+529934688236"; // Código de país + número
+  const mensaje = "Hola, me gustaría obtener más información sobre";
+
+  const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)} ${string}`;
+
+  window.open(url, "_blank");
 }
