@@ -4,9 +4,9 @@ Sitio web para la demostración informativa de la Institución Internacional Pau
 
 ## Tecnologías
 Frontend:
-HTML5
-CSS3
+- HTML5
+- CSS3
 
 Backend (próximamente):
-PHP
+- PHP (MVC)
 
