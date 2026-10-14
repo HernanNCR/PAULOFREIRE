@@ -410,6 +410,9 @@ footer .informacion_general article p {
     padding: 0px 10px;
   }
 
+  .content_imgs .diplomados_p {
+    font-size: 20px;
+  }
 
   .content_imgs .img1 {
     max-width: 80px;
@@ -432,7 +435,6 @@ footer .informacion_general article p {
     height: auto;
     margin: 1px;
   }
-  .content_imgs .diplomados_p,
   .div_parati article p {
     padding: 10px 120px;
     font-size: 20px;
