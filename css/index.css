@@ -251,9 +251,11 @@ header nav li:hover {
 
 .futuro_profesional .content_letters .etiquetaOferta {
   font-weight: 200;
+  text-align: center;
 }
 .futuro_profesional .content_letters .etiquetaColor {
   font-weight: 800;
+  text-align: center;
 }
 
 .futuro_profesional .content_carreras {
@@ -388,6 +390,8 @@ footer .informacion_general article p {
   font-size: 15px;
   margin: 15px 10px;
 }
+
+
 
 @media (max-width: 480px) {
   /* menu principal */
